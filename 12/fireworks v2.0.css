@@ -1,0 +1,22 @@
+ /* Fullscreen Setup */
+ html, body {
+	margin: 0;
+	padding: 0;
+	overflow: hidden; /* Disable scrollbars */
+	background-color: black; /* Black background */
+	height: 100%; /* Full height */
+	width: 100%; /* Full width */
+  }
+
+  canvas {
+	display: block; /* Remove space below canvas */
+	position: relative;
+	top: 0;
+	left: 0;
+	height: 100%; /* Make canvas full height */
+	width: 100%; /* Make canvas full width */
+  }
+
+.block-audio {
+	display: none;
+} 
